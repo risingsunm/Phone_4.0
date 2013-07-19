@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Begin: Modified by zxiaona for bug for C . G call 2012/08/14 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/call_c_call_icon_disabled"/>
+    <item
+        android:drawable="@drawable/ic_dial_action_call_c"></item>
+</selector>
+<!-- End: Modified by zxiaona for bug for C . G call 2012/08/14 -->

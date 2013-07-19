@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Begin: Modified by zxiaona for inComingCallScreen 2012/06/04 -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/call_ani_00" android:duration="500"/>
+    <item android:drawable="@drawable/call_ani_in_01" android:duration="500"/>
+    <item android:drawable="@drawable/call_ani_in_02" android:duration="500"/>
+    <item android:drawable="@drawable/call_ani_in_03" android:duration="500"/>
+    <item android:drawable="@drawable/call_ani_in_04" android:duration="500"/>
+    <item android:drawable="@drawable/call_ani_in_05" android:duration="500"/>
+    <item android:drawable="@drawable/call_ani_in_06" android:duration="500"/>
+    <item android:drawable="@drawable/call_ani_in_07" android:duration="500"/>
+</animation-list>
+<!-- End: Modified by zxiaona for inComingCallScreen 2012/06/04 -->

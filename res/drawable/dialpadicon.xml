@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Begin: Modified by zxiaona for display dialpad drawabletop 2012/06/12 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Non focused states -->
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/dialpad003" />
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/call_diapad_icon_dim"/>
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/dialpad002" />
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/dialpad003"/>
+    <item
+        android:drawable="@drawable/dialpad002"></item>
+</selector>
+<!-- End: Modified by zxiaona for display dialpad drawabletop 2012/06/12 -->
+

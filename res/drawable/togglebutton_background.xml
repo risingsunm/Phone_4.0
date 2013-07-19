@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Begin: Modified by zxiaona for call_screen 2012-3-27 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/call_default_btn_pressed_switch_on" />
+    <item android:state_selected="true"
+          android:drawable="@drawable/down" />
+    <item android:state_enabled="false"
+          android:drawable="@drawable/call_default_btn_pressed_switch_off" />
+    <item android:state_checked="true"
+          android:drawable="@drawable/down" />
+    <item
+          android:drawable="@drawable/up" />
+</selector>
+<!--End: Modified by zxiaona for call_screen 2012-3-27 -->

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Begin: Modified by zxiaona for bug for emergency 2012/07/11  -->
+    <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialpad_emcc"
+    android:layout_width="match_parent"
+    android:layout_height="0px"
+    android:layout_weight="@integer/dialpad_layout_weight_dialpad"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/dialpad_vertical_emargin"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:background="#1a1a1a">
+    <TableRow
+        android:paddingTop="10dp"
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <ImageButton android:id="@+id/one" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_1"
+            android:contentDescription="@string/description_image_button_one" />
+        <ImageButton android:id="@+id/two" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_2"
+            android:layout_marginLeft="6dip"
+            android:contentDescription="@string/description_image_button_two" />
+        <ImageButton android:id="@+id/three" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_3"
+            android:layout_marginLeft="6dip"
+            android:contentDescription="@string/description_image_button_three" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="6dp"
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <ImageButton android:id="@+id/four" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_4"
+            android:contentDescription="@string/description_image_button_four" />
+        <ImageButton android:id="@+id/five" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_5"
+            android:layout_marginLeft="8dip"
+            android:contentDescription="@string/description_image_button_five" />
+        <ImageButton android:id="@+id/six" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_6"
+            android:layout_marginLeft="8dip"
+            android:contentDescription="@string/description_image_button_six" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="6dp"
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <ImageButton android:id="@+id/seven" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_7"
+            android:contentDescription="@string/description_image_button_seven" />
+        <ImageButton android:id="@+id/eight" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_8"
+            android:layout_marginLeft="8dip"
+            android:contentDescription="@string/description_image_button_eight" />
+        <ImageButton android:id="@+id/nine" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_9"
+            android:layout_marginLeft="8dip"
+            android:contentDescription="@string/description_image_button_nine" />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="6dp"
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <ImageButton android:id="@+id/star" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_star"
+            android:contentDescription="@string/description_image_button_star" />
+        <ImageButton android:id="@+id/zero" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_0"
+            android:layout_marginLeft="8dip"
+            android:contentDescription="@string/description_image_button_zero" />
+        <ImageButton android:id="@+id/pound" style="@style/EmergencyDialpadButtonStyle"
+            android:src="@drawable/dial_num_pound"
+            android:layout_marginLeft="8dip"
+            android:contentDescription="@string/description_image_button_pound" />
+    </TableRow>
+</TableLayout>
+<!-- End: Modified by zxiaona for bug for emergency 2012/07/11  -->
